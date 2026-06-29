@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap');
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-outfit: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+  
+  /* Primary forest greens */
+  --color-forest-950: #04160f;
+  --color-forest-900: #0b3524;
+  --color-forest-850: #0c3a27;
+  --color-forest-800: #0e442e;
+  --color-forest-700: #14532d;
+  
+  /* Leaf & Lime greens */
+  --color-brand-green: #15803d;
+  --color-brand-green-hover: #166534;
+  --color-brand-lime: #22c55e;
+  --color-brand-lime-hover: #16a34a;
+  
+  /* Background colors */
+  --color-brand-bg-light: #f8fafc;
+  --color-brand-bg-card: #ffffff;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fcfdfd; /* extremely light gray-green background */
+  color: #334155;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-outfit);
+}
